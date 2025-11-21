@@ -42,10 +42,15 @@ public class SeguridadConfiguracion {
                         // Endpoints públicos
                         .requestMatchers(
                                 "/api/autenticacion/**",
+                                "/api/api-docs/**",
+                                "/api/swagger-ui/**",
+                                "/api/swagger-ui.html",
                                 "/api-docs/**",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
-                                "/v3/api-docs/**"
+                                "/v3/api-docs/**",
+                                "/swagger-resources/**",
+                                "/webjars/**"
                         ).permitAll()
                         
                         // Endpoints de usuarios - según rol
