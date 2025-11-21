@@ -1,16 +1,20 @@
-# Reporte de Pruebas Unitarias - NuclearVET
+# 📋 REPORTE DE PRUEBAS UNITARIAS - NUCLEARVET
 **Fecha:** 21 de Noviembre de 2025  
-**Estado:** ✅ **15/15 TESTS PASANDO**
+**Estado:** ✅ **35/35 TESTS PASANDO** | ❌ **15 SERVICIOS SIN TESTS**
 
 ## Resumen Ejecutivo
 
-Se implementaron pruebas unitarias utilizando **JUnit 5** y **Mockito** para validar la lógica de negocio de los servicios del **Módulo 7 - Administrativo**. Todas las pruebas compilaron y ejecutaron exitosamente.
+Se implementaron pruebas unitarias utilizando **JUnit 5** y **Mockito** para validar la lógica de negocio de 8 servicios principales del sistema NuclearVET. Todas las pruebas compilaron y ejecutaron exitosamente.
+
+**Cobertura actual:** 35% de servicios testeados (8 de 23 servicios)
 
 ---
 
-## Cobertura de Tests
+## ✅ TESTS COMPLETADOS (35 tests en 8 archivos)
 
-### 1. FacturaServicioTest (3 tests) ✅
+### Módulo 7: Administrativo
+
+#### 1. FacturaServicioTest (3 tests) ✅
 **Ubicación:** `src/test/java/com/nuclearvet/aplicacion/servicios/FacturaServicioTest.java`
 
 | Test | Objetivo | Estado |
